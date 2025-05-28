@@ -13,11 +13,10 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 # DEBUG = config('DEBUG', default=True, cast=bool)
 
 ALLOWED_HOSTS = [
+    'notes-api-3-1hp1.onrender.com',
     'localhost',
     '127.0.0.1',
-    'Notes_project.onrender.com',
 ]
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
